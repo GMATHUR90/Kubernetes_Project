@@ -1,0 +1,14 @@
+1. Command to run on Master Node: 
+
+kubectl get nodes
+
+kubectl create namespace nginx
+
+kubectl apply -f pod.yaml
+
+kubectl apply -f deployment.yaml
+
+2. Command to run on Worker Node:
+
+sudo crictl ps
+
