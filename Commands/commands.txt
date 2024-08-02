@@ -8,6 +8,16 @@ kubectl apply -f pod.yaml
 
 kubectl apply -f deployment.yaml
 
+kubectl get pod -n nginx
+
+kubectl get deployment -n nginx
+
+kubectl get pod -o wide
+
+kubectl describe deployment -n nginx
+
+kubectl scale deployment nginx-deployment --replicas=5 -n nginx
+
 2. Command to run on Worker Node:
 
 sudo crictl ps
