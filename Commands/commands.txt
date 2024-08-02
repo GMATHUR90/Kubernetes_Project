@@ -18,6 +18,8 @@ kubectl describe deployment -n nginx
 
 kubectl scale deployment nginx-deployment --replicas=5 -n nginx
 
+kubectl get service -n nginx
+
 2. Command to run on Worker Node:
 
 sudo crictl ps
