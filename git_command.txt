@@ -1,0 +1,10 @@
+
+git config --global user.name <Github_Username>
+git config --global user.email <Your_email.id>
+
+#Create a Personal Token on Github and attach it to your VM.
+
+git remote -v
+git remote remove origin
+git remote add origin https://(Personal Access Token)@github.com/Github_Username/Github_Reponame.git
+git push origin main
