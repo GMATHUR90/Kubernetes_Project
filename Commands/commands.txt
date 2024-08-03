@@ -20,6 +20,8 @@ kubectl scale deployment nginx-deployment --replicas=5 -n nginx
 
 kubectl get service -n nginx
 
+kubectl delete pod <pod-name> -n <namespace-name>
+
 2. Command to run on Worker Node:
 
 sudo crictl ps
